@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model_2.1</title>
+    <style>
+        *{border: 1px solid black;}
+        #header {
+            height: 100px;
+            background: bisque;
+        }
+        #footer {
+            height: 100px;
+            background: bisque;
+        }
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        #menu {
+            height: 300px;
+            width: 25%;
+            background: darkorchid;
+        }
+        #posts{width: 75%;}
+        .post {
+            /*Как сделать высоту в половину родительского блока?*/
+            height: 50%;
+            box-sizing: border-box;
+            background: aqua;
+        }
+    </style>
+</head>
+<body>
+<div class="box" id="header"><h1>ID header</h1></div>
+<div style="display: flex">
+    <div class="box" id="menu"><h1>ID menu</h1></div>
+    <div id="posts">
+        <div class="box post"><h1>CLASS post</h1></div>
+        <div class="box post"><h1>CLASS post</h1></div>
+    </div>
+</div>
+<div class="box" id="footer"><h1>ID footer</h1></div>
+</body>
+</html>
