@@ -4,10 +4,11 @@ h1,h2{
 
 
 .box{
-    /*width: 50%;*/
     margin: 5px;
     padding: 5px;
-    box-sizing: border-box;
+
+    flex-basis: 100%;
+    flex-grow: 1;
 
     background: rgba(219, 112, 147, 0.5);
     border-left: 5px solid violet;
@@ -16,7 +17,6 @@ h1,h2{
 }
 .head{
     display: flex;
-    justify-content: space-between;
 
     margin: 5px;
     padding: 10px;
