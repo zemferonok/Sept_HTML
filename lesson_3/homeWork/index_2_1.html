@@ -23,15 +23,21 @@
             box-sizing: border-box;
         }
         #menu {
+            flex-grow: 1;
+
             height: 300px;
-            width: 25%;
             background: darkorchid;
         }
-        #posts{width: 75%;}
+        #posts{
+            flex-grow: 3;
+
+            display: flex;
+            flex-direction: column;
+            background: rgba(255, 248, 220, 0.3);
+        }
         .post {
-            /*Как сделать высоту в половину родительского блока?*/
-            height: 50%;
-            box-sizing: border-box;
+            flex-grow: 1;
+
             background: aqua;
         }
     </style>
