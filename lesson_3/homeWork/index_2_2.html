@@ -4,18 +4,41 @@
     <meta charset="UTF-8">
     <title>Model_2.2</title>
     <style>
+        html{background: darkgrey}
+        body{background: bisque}
         *{border: 1px solid black}
+        .header{
+            height: 100px;
+            background: cornflowerblue;
+        }
+        .square{
+            height: 100px;
+            width: 100px;
+            background: cadetblue;
+        }
+        .footer{
+            height: 100px;
+            background: cornflowerblue;
+        }
+        .box{
+            flex-grow: 1;
+
+            margin: 10px;
+            padding: 10px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
-
-<div class="box"><h3>Widgets</h3></div>
+<div class="box header"><h3>Widgets</h3></div>
 <div style="display: flex">
-    <div class="box"><h3>Big Widgets</h3></div>
-    <div class="box"><h3>Bigger Widgets</h3></div>
-    <div class="box"><h3>Huge Widgets</h3></div>
+    <div class="box square"><h3>Big Widgets</h3></div>
+    <div class="box square"><h3>Bigger Widgets</h3></div>
+    <div class="box square"><h3>Huge Widgets</h3></div>
 </div>
-<div class="box"><h3>Contact</h3></div>
-
+<div class="box footer"><h3>Contact</h3></div>
 </body>
 </html>
