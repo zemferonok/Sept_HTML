@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model_8.1</title>
+    <style>
+        *{border: 1px solid black}
+        .box{
+            min-height: 100px;
+            max-height: 200px;
+            flex-grow: 1;
+            margin: 5px;
+            padding: 5px;
+            /*box-sizing: border-box;*/
+            background: lightgrey;
+        }
+        .line{
+            min-height: 25px;
+            max-height: 50px;
+        }
+        .elem_1{display: flex; column-gap: 60%;}
+        .elem_2{width: 20%;}
+        /*.elem_3{flex-grow: 1;}*/
+        .elem_4{display: flex;}
+        .elem_5{width: 80%;}
+        .elem_6{width: 20%;}
+        .elem_7{}
+
+    </style>
+</head>
+<body>
+
+<div class="elem_1">
+    <div class="box line"></div>
+    <div class="box line"></div>
+</div>
+<div style="display: flex">
+    <div class="elem_2">
+        <div class="box line"></div>
+        <div class="box line"></div>
+        <div class="box line"></div>
+        <div class="box line"></div>
+        <div class="box line"></div>
+        <div class="box line"></div>
+    </div>
+    <div style="flex-grow: 1;">
+        <div class="elem_3">
+            <div class="box"></div>
+        </div>
+        <div class="elem_4">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div style="display: flex">
+            <div class="elem_5">
+                <div style="display: flex">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <div style="display: flex">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <div style="display: flex">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <div style="display: flex">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <div style="display: flex">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <div style="display: flex">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <div style="display: flex; justify-content: center">
+                    <div class="box line" style="max-width: 100px"></div>
+                </div>
+            </div>
+            <div class="elem_6">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+        <div class="elem_7">
+            <div class="box line"></div>
+            <div style="display: flex; justify-content: center">
+                <div class="box line" style="max-width: 100px"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
