@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model_2.1</title>
+    <style>
+        *{border: 1px solid black;}
+
+        .h100{height: 100px;}
+        .h300{height: 300px;}
+        .w35{width: 35%;}
+        .flex{display: flex;}
+        .grow{flex-grow: 1;}
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .header {background: bisque;}
+        .footer {background: bisque;}
+        .menu {background: darkorchid;}
+        .posts{
+            display: flex;
+            flex-direction: column;
+            background: rgba(255, 248, 220, 0.3);
+        }
+        .post {background: aqua;}
+    </style>
+</head>
+<body>
+<div class="box header h100"><h1>ID header</h1></div>
+<div class="flex">
+    <div class="box menu h300 w35"><h1>ID menu</h1></div>
+    <div class="posts grow">
+        <div class="box post grow"><h1>CLASS post</h1></div>
+        <div class="box post grow"><h1>CLASS post</h1></div>
+    </div>
+</div>
+<div class="box footer h100"><h1>ID footer</h1></div>
+</body>
+</html>

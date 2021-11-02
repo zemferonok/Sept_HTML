@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model_2.2</title>
+    <style>
+        *{border: 1px solid black}
+        html{background: darkgrey}
+        body{background: bisque}
+
+        .h100{height: 100px;}
+
+        .box{
+            margin: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .header{background: cornflowerblue;}
+        .square{
+            height: 100px;
+            width: 100px;
+            flex-grow: 1;
+            background: cadetblue;
+        }
+        .footer{background: cornflowerblue;}
+    </style>
+</head>
+<body>
+<div class="box header h100"><h3>Widgets</h3></div>
+<div style="display: flex">
+    <div class="box square"><h3>Big Widgets</h3></div>
+    <div class="box square"><h3>Bigger Widgets</h3></div>
+    <div class="box square"><h3>Huge Widgets</h3></div>
+</div>
+<div class="box footer h100"><h3>Contact</h3></div>
+</body>
+</html>

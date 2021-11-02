@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing</title>
+    <style>
+        *{border: 1px solid black}
+        html{background: gray}
+        body{background: lightgrey}
+
+        .box{margin: 10px; padding: 10px; box-sizing: border-box;}
+        .main{background: darkcyan;
+            height: 600px;
+
+            display: flex;
+            flex-direction: column;
+
+            flex-wrap: wrap;
+            column-gap: 100px;
+            /*row-gap: 100px;*/
+        }
+        .child{background: coral;
+            width: 25%;
+            /*width: 150px;*/
+            /*flex-basis: 150px;*/
+            /*flex-basis: 25%;*/
+
+        }
+        /*.special_1{align-self: center;}*/
+    </style>
+</head>
+<body>
+<div class="main box">
+    <div class="child box"><h1>1</h1></div>
+    <div class="child box"><h1>2</h1></div>
+    <div class="child box"><h1>3</h1></div>
+    <div class="child box"><h1>4</h1></div>
+    <div class="child box"><h1>5</h1></div>
+    <div class="child box special_1"><h1>6</h1></div>
+</div>
+</body>
+</html>

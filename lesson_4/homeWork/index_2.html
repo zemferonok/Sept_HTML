@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model_2</title>
+    <style>
+        * {border: 1px solid black}
+        html {background: gray}
+        body {background: bisque}
+        h1 {color: lavender}
+
+        .h100{height: 100px;}
+        .h150{height: 150px;}
+        .h300{height: 300px;}
+        .w35{width: 35%;}
+        .w65{width: 65%;}
+        .flex{display: flex;}
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        .header {background: blue;}
+        .nav {background: darkblue;}
+        .main {background: cornflowerblue;}
+        .aside {background: blueviolet;}
+        .footer {background: aquamarine;}
+    </style>
+</head>
+<body>
+
+<div class="header box h150"><h1>Header</h1></div>
+<div class="nav box h100"><h1>Nav</h1></div>
+<div class="flex">
+    <div class="main box h300 w65"><h1>Main</h1></div>
+    <div class="aside box w35"><h1>Aside</h1></div>
+</div>
+<div class="footer box h150"><h1>Footer</h1></div>
+
+</body>
+</html>
