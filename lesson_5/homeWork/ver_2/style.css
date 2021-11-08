@@ -1,0 +1,190 @@
+/*.page{width: 1000px;}*/
+/*html{width: 1000px;}*/
+*{border: 1px solid black;}
+a{text-decoration: none;}
+.circleArea__menu__item:hover,
+.squareArea__border__menu__item:hover{
+    background: darkgrey;
+}
+.bg_dBlue{background: darkblue;}
+.bg_lBlue{background: lightblue;}
+.bg_lGray{background: lightgray;}
+.bg_dGray{background: darkgrey;}
+.col_dBlue{color: darkblue;}
+.col_lBlue{color: lightblue;}
+.col_lGray{color: lightgray;}
+
+.top__links{
+    padding: 20px 120px;
+    display: flex;
+    /*box-sizing: border-box;*/
+    justify-content: right;
+    column-gap: 20px;
+}
+
+.top__title{
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top__title button{
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+.top__title__links{
+    display: flex;
+    column-gap: 20px;
+}
+
+.top__menu{
+    display: flex;
+    justify-content: center;
+    padding: 20px 120px;
+}
+.top__menu__wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+}
+.top__menu__wrap button{
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.squareArea{padding: 20px 100px;}
+.squareArea__border{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid lightblue;
+    border-radius: 50px;
+    padding: 20px;
+}
+.squareArea__border__menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.squareArea__border__menu__item{
+    width: 20%;
+    text-align: center;
+}
+.squareArea__border__menu__item div{
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.circleArea{padding: 20px 120px;}
+.circleArea__menu{
+    display: flex;
+    justify-content: space-around;
+}
+.circleArea__menu__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+}
+.circleArea__menu__item div{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.cardArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    padding: 20px 100px;
+}
+.cardArea__menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+.cardArea__menu__item{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 30%;
+    padding: 20px;
+    border: 5px solid lightblue;
+    border-radius: 25px;
+}
+.cardArea__menu__item>div.bg_dBlue{
+    width: 100%;
+    height: 150px;
+    border-radius: 25px;
+}
+.cardArea__menu__item__footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid lightblue;
+    padding-top: 20px;
+}
+.cardArea__menu__item__footer button{
+    height: 20px;
+    width: 75px;
+    border-radius: 5px;
+}
+.cardArea__menu__item__footer__wrap{
+    display: flex;
+    column-gap: 10px;
+}
+.cardArea__menu__item__footer__wrap div{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.cardArea__more{
+    display: flex;
+    margin: 100px;
+    width: 100%;
+}
+.cardArea__more__item{
+    padding: 20px;
+}
+.cardArea__more__item button{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.bottom__wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 40%;
+    padding: 20px;
+    row-gap: 20px;
+}
+.bottom__wrap__squares{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.bottom__wrap__squares div{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+.bottom__wrap_line{
+    height: 6px;
+    width: 100%;
+    border-radius: 6px;
+}
